@@ -136,7 +136,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------timer1---------------------------------------*/
 #timer{float: right; border:; height:170px; width:359px; margin-top:-175px;}
-#days{ width:25px; height:50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); margin:4px; background: -webkit-linear-gradient(white, black, white);  text-align: center; font-size: 50px; border-radius:10px;
+#days{ width:; height:; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); margin:4px; background: -webkit-linear-gradient(white, black, white);  text-align: center; font-size: 50px; border-radius:10px;
 }
 #hours{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white);  margin:4px; text-align: center; font-size:50px; border-radius:10px;}
 #minutes{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white); margin:4px;  text-align: center; font-size:50px; border-radius:10px;}
@@ -149,13 +149,27 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #hour{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white); margin:4px; text-align: center; font-size:50px; border-radius:10px;}
 #minute{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white); margin:4px;  text-align: center; font-size:50px; border-radius:10px;}
 #second{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white);  margin:4px; text-align: center; font-size:50px; border-radius:10px;}
-/* ----------------------------------------------timer2---------------------------------------*/
+/* ----------------------------------------------timer3---------------------------------------*/
+#timer3{float: right; border:; height:170px; width:359px; margin-top:-175px;}
+#edays{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white); margin:4px; text-align: center; font-size: 50px; border-radius:10px;
+}
+#ehours{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white); margin:4px; text-align: center; font-size:50px; border-radius:10px;}
+#eminutes{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white); margin:4px;  text-align: center; font-size:50px; border-radius:10px;}
+#eseconds{ width: 25px; height: 50px; background:-moz-linear-gradient(white, black, RGBA(248, 159, 60, 0.46)); background: -webkit-linear-gradient(white, black, white);  margin:4px; text-align: center; font-size:50px; border-radius:10px;}
+#spans3{ border:; height:; padding:10px; margin-top:95px;}
+/* ----------------------------------------------timer3---------------------------------------*/
+
+
+
 #spans{ border:; height:; padding:10px; margin-top:30px;}
 
 #spans1{ border:; height:; padding:10px; margin-top:30px;}
 #moreOnSports{display: none; }
 #moreOnOpnDay{display: none; }
 #timeleft{border:1px solid #B7AEAE; height:27px; width:120px; border-radius: 5px; background-color: #F3ECE5; margin-left:12px;}
+
+
+
 
 .contactf input, textarea{padding:10px; border:1px solid #E5E5E5; color:#999999; box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 8px; -moz-box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 8px; -webkit-box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 8px; }
 .contactf textarea{width:400px; height:150px; max-width:400px; line-height:18px; }
@@ -172,21 +186,21 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
    .row1{width:98%;}
    .row2{width:98%;}
    .row3{width:98%;}
+   .row6{width:98%;}
    #small-logo{margin-top:-4px; margin-left:0px;}
    #featured_slide{width:; margin-left:10px;}
 
    #topnav{width: 98%%;}
    .fl_right{display:none;}
 
-   /*##################################################*/
+   /*#################row3()##############################*/
    #container{width:98%;}
    #container #homepage{width:98%;}
-   #container #homepage #content{width:70%;}
-   #container #homepage #content #top_featured{width:70%;}
-   #container #homepage #content #top_featured .clear{width:;}
-   #container #homepage #content #top_featured ul .mv{width:;}
-   #container #homepage #content #top_featured ul .last{width:; float:;}
-   #container #homepage #content #latestnews{width:;}
+   #container #homepage #content{width:68%;}
+   #container #homepage #content #top_featured{width:100%;}
+   #container #homepage #content #top_featured .clear{width:100%;}
+   #container #homepage #content #top_featured ul .mv{width:48%;}
+   #container #homepage #content #top_featured ul .last{width:48%; float:right; margin-top:-120px;}
    #column {width:;}
    .holder{width:;}
    #MediaPlayer{width:;}
@@ -198,7 +212,63 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
    /*##################################################*/
    #gmap_canvas{max-width:98%;}
    #locate{max-width:98%;}
+
+   /*##################################################*/
+    #container #homepage #content #latestnews{width:100%;}
+    #container #homepage #content #latestnews #opnday{width:48%;}
+    #container #homepage #content #latestnews #opnday p{width:98%;}
+  #container #homepage #content #latestnews #sptsday{width:48%;}
+   #container #homepage #content #latestnews li{width:100%;} 
+  #container #homepage #content #latestnews #timer{width:48%;}
+  
+  #container #homepage #content #latestnews #timer2{width:48%}
+
+/*###########contactus.php##############*/
+#contactdiv{width:; margin-left:10px;}
+#contactdiv #contactf{width:; margin-left:10px; position:;}
+#locateus{width:; position:;}
+
+
 }
+
+
+
+
+
+@media screen and (max-width: 995px){
+
+#container #homepage #content #latestnews #timer #spans1{ border:; height:; padding:5px; margin-top:; width:;}
+#container #homepage #content #latestnews #timer #spans1 #text{ font-size:16px;}
+#container #homepage #content #latestnews #timer #spans1 #days{ width:; height:; font-size: 50px; border-radius:10px;}
+
+}
+@media screen and (max-width: 963px){
+
+#container #homepage #content #latestnews #timer #spans1{ border:; height:; padding:5px; margin-top:; width:;}
+#container #homepage #content #latestnews #timer #spans1 #days{ width:; height:; font-size: 45px; border-radius:10px;}
+#container #homepage #content #latestnews #timer #spans1 #hours{ width:; height:; font-size: 45px; border-radius:10px;}
+#container #homepage #content #latestnews #timer #spans1 #minutes{ width:; height:; font-size: 45px; border-radius:10px;}
+#container #homepage #content #latestnews #timer #spans1 #seconds{ width:; height:; font-size: 45px; border-radius:10px;}
+
+}
+@media screen and (max-width: 912px){
+
+#container #homepage #content #latestnews #timer #spans1{ border:; height:; padding:5px; margin-top:; width:;}
+#container #homepage #content #latestnews #timer #spans1 #days{ width:; height:; font-size: 40px; border-radius:5px;}
+#container #homepage #content #latestnews #timer #spans1 #hours{ width:; height:; font-size: 40px; border-radius:5px;}
+#container #homepage #content #latestnews #timer #spans1 #minutes{ width:; height:; font-size: 40px; border-radius:5px;}
+#container #homepage #content #latestnews #timer #spans1 #seconds{ width:; height:; font-size: 40px; border-radius:5px;}
+
+}
+@media screen and (max-width: 874px){
+
+#container #homepage #content #latestnews #timer #spans1{ border:; height:; padding:5px; margin-top:110px; width:; margin-left:-200px;}
+#container #homepage #content #latestnews #timer #timeleft{ margin-top:110px; width:; margin-left:-200px; }
+}
+
+ 
+
+
 
 @media screen and (max-width: 965px){
   #header, #container, #footer, #copyright, #topnav, .wrapper, .top{width:98%;}
@@ -272,4 +342,17 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
     .row2{width:98%;}
    .row3{width:98%;}
 
+}
+@media screen and (max-width: 772px) {
+
+/*###########contactus.php##############*/
+#contactdiv{width:49%; margin-left:50px;}
+#contactdiv #contactf{width:49%; margin-left:10px; position:; clear:right;}
+#locateus{width:49%; position:; margin-top:;}
+}
+@media screen and (max-width: 960px) {
+  .row4{width:98%;}
+/*###########contactus.php##############*/
+#wordfrom{width:49%; margin-left:;}
+#directressimg{width:49%; margin-left:;}
 }
